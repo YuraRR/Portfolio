@@ -7,7 +7,9 @@
 * {
   font-family: "Inter";
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   @apply bg-gray-def bg-transition;
 }
@@ -73,4 +75,47 @@ h3 {
 }
 h4 {
   @apply text-xl font-semibold text-gray-900;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  @apply bg-gray-500;
+  transition: width 0.3s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-200 bg-transition;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 bg-transition;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 bg-transition;
+}
+
+.hover-shadow {
+  @apply hover:shadow-2xl hover:opacity-95 hover:shadow-gray-200 transition ease-in;
 }

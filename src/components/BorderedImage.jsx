@@ -4,18 +4,15 @@ export default function BorderedImage({ src, shadowPos, size, borderColor }) {
   const shadowSize = size === "big" ? { height: "240px" } : { height: "260px" };
 
   return (
-    <div
-      className={`flex relative z-0 mx-auto justify-center p-4 md:p-0`}
-      style={{ maxWidth: imageSize.maxWidth }}
-    >
+    <div className={`flex relative z-0 mx-auto justify-center md:p-0`} style={{ maxWidth: imageSize.maxWidth }}>
       <img
-        src={`/images/${src}`}
+        src={`images/${src}`}
         alt="me"
-        className={`h-full object-cover border-8 ${borderColor}`}
+        className={`h-full object-cover border-8 min-w-72 hover-shadow ${borderColor}`}
         style={{ maxHeight: imageSize.maxHeight }}
       />
       <div
-        className={`absolute hidden sm:block bg-gray-200 -z-10  w-full top-4
+        className={`absolute hidden sm:block bg-gray-200 -z-10 w-full top-4
         ${shadowPos == "right" ? "-right-5 animate-swanging-right" : "-left-5 animate-swanging-left"}`}
         style={{ height: imageSize.maxHeight }}
       ></div>

@@ -29,14 +29,25 @@ export default {
           "100%": { transform: "translateX(10px)  translateY(10px)" },
         },
         "swanging-left": {
-          "0%": { transform: "translateX(-10px)  translateY(10px)" },
+          "0%": { transform: "translateX(-13px)  translateY(13px)" },
           "50%": { transform: "translateX(0px)  translateY(0px)" },
-          "100%": { transform: "translateX(-10px)  translateY(10px)" },
+          "100%": { transform: "translateX(-13px)  translateY(13px)" },
+        },
+        "swanging-left": {
+          "0%": { transform: "translateX(-13px)  translateY(13px)" },
+          "50%": { transform: "translateX(0px)  translateY(0px)" },
+          "100%": { transform: "translateX(-13px)  translateY(13px)" },
+        },
+        wave: {
+          "0%,50%,100%": { transform: "rotate(0deg)" },
+          "25%,75%": { transform: "rotate(20deg)" },
         },
       },
       animation: {
         "swanging-right": "swanging-right 5s ease-in-out infinite",
         "swanging-left": "swanging-left 5s ease-in-out infinite",
+        wave: "wave 1.3s ease-in-out",
+        "reveal-text": "reveal-text 1s ease forwards",
       },
     },
   },
