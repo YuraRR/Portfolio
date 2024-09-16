@@ -16,6 +16,10 @@ export default function Footer() {
     }
     setTimeout(() => setTip({ email: false, phone: false }), 3000);
   }
+
+  function openLink(url) {
+    window.open(url);
+  }
   return (
     <Animated>
       <div className="container">
@@ -53,7 +57,19 @@ export default function Footer() {
             </article>
           </div>
 
-          <span className="mt-12 text-center">You may also find me on these platforms!</span>
+          <span className="mt-12 text-center mb-2">You may also find me on these platforms!</span>
+          <div className="flex gap-1">
+            <Icon
+              name="linkedIn"
+              styles="cursor-pointer"
+              onClick={() => openLink("https://www.linkedin.com/in/yurii-halushko-699030328/")}
+            ></Icon>
+            <Icon
+              name="tg"
+              styles="cursor-pointer w-7"
+              onClick={() => openLink("https://t.me/Halushko_Yura")}
+            ></Icon>
+          </div>
         </footer>
       </div>
       <div className="flex center gap-2 bg-gray-50 bg-transition w-full py-6 mt-24">
