@@ -4,7 +4,7 @@ export default function Button({ children, width }) {
   const maxWidth = width || "max-w-[136px]";
 
   function handleClick() {
-    window.open("https://drive.google.com/file/d/1S26ev_DSaCQGpeKQyYNVTD8F6VMiSZ5Z/view?usp=sharing ");
+    window.open("https://drive.google.com/file/d/1vTjGFO_-uWxl3YrAFoCRDZC7ycJd-gBl/view?usp=sharing", "_blank");
   }
   return (
     <button className={`${defaultClass} ${maxWidth}`} onClick={handleClick}>
