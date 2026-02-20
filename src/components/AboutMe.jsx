@@ -1,4 +1,3 @@
-import React from "react";
 import BorderedImage from "./BorderedImage";
 import Animated from "./Animated";
 
@@ -7,11 +6,11 @@ export default function AboutMe() {
     <div className="w-full bg-gray-50 bg-transition">
       <div className="container">
         <Animated delay={0.3}>
-          <section id="about" className="py-16 md:py-24">
+          <section id="about" className="py-16 md:py-20">
             <h3>About me</h3>
-            <div className="flex flex-col md:flex-row mt-12 gap-10">
+            <div className="flex flex-col gap-10 mt-12 md:flex-row">
               <BorderedImage src="me2.webp" size="big" borderColor="border-gray-50" />
-              <div className="flex flex-col text-gray-600 gap-4 md:w-3/4 lg:w-1/2">
+              <div className="flex flex-col gap-4 text-gray-600 md:w-3/4 lg:w-1/2">
                 <h2 className="mb-2">Curious about me? Here you have it:</h2>
                 <p>
                   As a Frontend Developer, I am passionate about crafting engaging and intuitive web experiences.

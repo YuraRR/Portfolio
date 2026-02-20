@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe";
+import Expirience from "./components/Experience";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainBlock from "./components/MainBlock";
@@ -12,6 +13,7 @@ function App() {
       <MainBlock />
       <AboutMe />
       <Skills />
+      <Expirience />
       <Projects />
       <Footer />
     </>

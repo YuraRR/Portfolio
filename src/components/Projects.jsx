@@ -8,7 +8,7 @@ export default function Projects() {
         <section id="projects" className="flex flex-col my-16 md:my-24 max-w-[1280px] mx-auto">
           <h3>Projects</h3>
           <span className="mx-auto mt-4">Some of the noteworthy projects I have built:</span>
-          <div className="flex flex-col mt-12 gap-6 md:gap-12 mx-4 ">
+          <div className="flex flex-col gap-6 mx-4 mt-12 md:gap-12 ">
             {projectsData.map((project) => (
               <ProjectCard key={project.id} data={project} />
             ))}

@@ -19,7 +19,7 @@ export const projectsData = [
   {
     id: 0,
     title: "PolyTech",
-    text: "This website was created as part of my diploma project, leveraging cutting-edge technologies like Next.js, React, Redux, and TypeScript. The website serves as a marketplace platform where users can browse and purchase products, manage their carts, and maintain personalized profiles. All user data and transactions are handled efficiently with Redux for state management, while TypeScript ensures code reliability. The project incorporates Tailwind CSS for responsive and modern styling, and Vite for optimized performance. Additionally, the platform features smooth navigation and basic security measures, with plans to integrate payment processing and further enhance user experience in future iterations.",
+    text: "A marketplace platform developed as a diploma project using Next.js, React, Redux, and TypeScript. Users can browse products, manage carts, and maintain personalized profiles. Redux ensures efficient state management for data and transactions, while TypeScript provides code reliability. The project features a modern, responsive UI built with Tailwind CSS and is optimized for performance.",
     tags: ["Next.js", "Typescript", "React", "Tailwind", "Supabase"],
     images: ["PolyTech-1.webp", "PolyTech-2.webp", "PolyTech-3.webp", "PolyTech-4.webp"],
     link: "https://github.com/YuraRR/marketplace-for-diploma",
@@ -27,7 +27,7 @@ export const projectsData = [
   {
     id: 1,
     title: "Mindori",
-    text: "This project involved using the new technologies like React Router and Firebase. The website allows users to view vacation rental properties, search for available dates, and book selected houses and additional services. All bookings are stored in Firebase, and once a booking is made, the property becomes unavailable for future searches on those dates. Additionally, users can receive a discount certificate via email after a simulated payment, facilitated by EmailJS. The project also incorporated various libraries for animations, smooth page transitions, and form validation.",
+    text: "A vacation rental platform built with React Router and Firebase. Users can search for properties, check availability, and book houses or additional services. Bookings are stored in Firebase, dynamically updating property availability. The project features simulated payments with automated email discounts via EmailJS, along with smooth animations and robust form validation.",
     tags: ["React", "Redux", "React Router", "Tailwind", "Firebase"],
     images: ["Mindori-1.webp", "Mindori-2.webp", "Mindori-3.webp", "Mindori-4.webp"],
     link: "https://github.com/YuraRR/Mindori",
@@ -35,7 +35,7 @@ export const projectsData = [
   {
     id: 2,
     title: "Simple Factory",
-    text: "This JavaScript game is my largest project to date, taking around six months to develop. Simple Factory features isometric 2D graphics created without engines or libraries. Most visual content, such as factory models and items, was designed by me using MagicaVoxel. The game focuses on automating processes like mining resources, transporting them via conveyor belts or vehicles, and gradually processing and converting them into finished products. It includes about 50 different materials and products, as well as numerous factories and plants for resource extraction and processing. Throughout development, I encountered many serious challenges, which greatly enhanced my JavaScript skills",
+    text: "An isometric 2D automation game developed over six months using pure JavaScript without external engines. I designed the visual assets, including factory models and items, using MagicaVoxel. The gameplay focuses on resource extraction, transportation via conveyors, and multi-stage processing. Featuring over 50 materials and complex production chains, this project significantly advanced my core JavaScript skills.",
     tags: ["JavaScript", "SCSS"],
     images: [
       "Simple-factory-1.webp",
@@ -49,7 +49,7 @@ export const projectsData = [
   {
     id: 3,
     title: "WR-SR Calculator",
-    text: "This small project was created to practice React and Tailwind. The calculator is designed for computing data from the city-building game Workers & Resources: Soviet Republic, such as energy, water, and heating values needed for the proper functioning of selected residential buildings. It also displays the number of required buildings and infrastructure, such as power plants, wires, pipes, etc., to provide these services.",
+    text: "A specialized utility for the game 'Workers & Resources: Soviet Republic' built to practice React and Tailwind. It calculates essential values for energy, water, and heating based on selected residential buildings. The tool also helps players plan infrastructure by displaying the required number of power plants, pipes, and wiring needed for city stability.",
     tags: ["React", "Tailwind"],
     images: ["WR-SR-Calculator-1.webp", "WR-SR-Calculator-2.webp"],
     link: "https://github.com/YuraRR/WR-SR-Calculator",
@@ -57,7 +57,7 @@ export const projectsData = [
   {
     id: 4,
     title: "CutSpace",
-    text: "Cutspace Project is a basic landing page I created during the early stages of my JavaScript learning. It has a simple, modern design based on a Figma mockup. The site doesn’t use any extra libraries and was built using just HTML, CSS, and JavaScript. This project shows my ability to turn design ideas into real, functional web pages while practicing my core skills.",
+    text: "A modern landing page created during the early stages of my JavaScript journey. Based on a Figma mockup, the project was built using only vanilla HTML, CSS, and JavaScript without extra libraries. It demonstrates my ability to translate design concepts into functional, responsive web pages while mastering core web development fundamentals.",
     tags: ["JavaScript", "CSS"],
     images: ["CutSpace-1.webp", "CutSpace-2.webp", "CutSpace-3.webp"],
     link: "",
@@ -65,7 +65,7 @@ export const projectsData = [
   {
     id: 5,
     title: "GD-Consulting",
-    text: "GD-Consulting was my first collaborative project, developed with a friend. It involved creating a multi-page website where we worked together to build a fully functional site based on a Figma mockup. To coordinate our efforts efficiently, we used GitHub for version control and project management.We divided the tasks according to our strengths and started working on different sections of the site simultaneously. This approach allowed us to make steady progress and integrate our work seamlessly. This project provided valuable experience in teamwork, collaboration, and managing a shared codebase, enhancing both my technical skills and my ability to work effectively with others.",
+    text: "A collaborative multi-page website developed with a partner based on a Figma mockup. We utilized GitHub for version control and efficient task management, dividing responsibilities to ensure seamless integration. This project provided hands-on experience in teamwork and managing a shared codebase, while enhancing my skills in collaborative development and SCSS styling.",
     tags: ["JavaScript", "SCSS"],
     images: ["GD-1.webp", "GD-2.webp", "GD-3.webp"],
     link: "https://github.com/YuraRR/GD-Consulting",
